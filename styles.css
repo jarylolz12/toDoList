@@ -1,0 +1,75 @@
+body{
+    background-image: linear-gradient(-270deg, #919191, #62b2bf, #00d7ff);
+}
+
+.board{
+    max-width: 600px;
+    margin: 0 auto;
+  
+}
+
+.heads{
+    text-align: center;
+    background-color: #3353ff;
+}
+.heads h3{
+    margin: 0;
+    padding: 25px
+}
+
+.heads input{
+    width: 97.3%;
+    height: 20px;
+    border: 0;
+    padding: 1rem 0 1rem 1rem;
+    background-color: #e7e7e7;;
+}
+
+#papel{
+    background-color: white; 
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+ul:nth-of-type(even){
+    background-color: #e7e7e7;   
+}
+
+li span{    
+    padding: 1rem;
+    float: left;
+    text-decoration: none;
+    color: black;
+} 
+
+li a{    
+    /* float: right;
+    padding: 1rem;
+    text-decoration: none;
+    color: black; */
+} 
+
+li img{    
+    float: right;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    width: 15px;
+    opacity: 0;
+} 
+
+
+.yehey{
+    text-decoration: line-through;
+    color: #919191;
+}
+
+.katchara{
+    opacity: 100;
+    transition: opacity 1000ms;
+}
